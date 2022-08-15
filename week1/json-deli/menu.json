@@ -1,0 +1,100 @@
+{
+    "menu": [
+        {
+            "appetizers": [
+                {
+                    "pickles": "fried pickles",
+                    "ingredients": [
+                        "pickles",
+                        "mayonnaise"
+                    ],
+                    "description": "pickles fried in oil",
+                    "wings": "buffalo wings",
+                    "ingredient": [
+                        "wings",
+                        "buffalo sauce"
+                    ],
+                    "descriptions": "wings in buffalo sauce"
+                }
+            ]
+        },
+        {
+            "cold sandwiches": [
+                {
+                    "sandwich": "turkey sandwich",
+                    "ingredients": [
+                        "turkey",
+                        "cheese",
+                        "white bread"
+                    ],
+                    "description": "turkey and cheese on white bread",
+                    "cold sandwich": "ham sandwich",
+                    "ingredient": [
+                        "ham",
+                        "cheese",
+                        "bread"
+                    ],
+                    "descriptions": "ham and cheese sandwich on white bread"
+                }
+            ]
+        },
+        {
+            "hot sandwiches": [
+                {
+                    "hot sandwiches": "meatball sub",
+                    "ingredient": [
+                        "meatball",
+                        "sauce",
+                        "white bread"
+                    ],
+                    "description": "spicy meatballs in sauce poured on a white bread roll",
+                    "panini sandwich": "panini sandwich",
+                    "ingredients": [
+                        "chicken",
+                        "tomatoes",
+                        "cheese",
+                        "guacamole"
+                    ],
+                    "descriptions": "hot panini sandwich grilled on a smoked grill with hot sauce"
+                }
+            ]
+        },
+        {
+            "deserts": [
+                {
+                    "cake": "chocolate cake",
+                    "ingredient": [
+                        "eggs",
+                        "flour",
+                        "cake mix"
+                    ],
+                    "description": "Chocolate fluffy cake with chocolate frosting",
+                    "ice cream": "chocolate ice-cream",
+                    "ingredients": [
+                        "ice",
+                        "cream"
+                    ],
+                    "descriptions": "chocolate ice cream with rainbow sprinkles on top"
+                }
+            ]
+        },
+        {
+            "drinks": [
+                {
+                    "lemonade": "lemonade",
+                    "ingredient": [
+                        "lemon",
+                        "ice"
+                    ],
+                    "description": "freshly squeezed lemons into lemonade",
+                    "soda": "sprite",
+                    "ingredients": [
+                        "sugar",
+                        "soda flavoring"
+                    ],
+                    "descriptions": "refreshing fizzy soda"
+                }
+            ]
+        }
+    ]
+}
