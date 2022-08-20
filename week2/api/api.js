@@ -1,4 +1,4 @@
-{
+let text = {
     "name": "Luke Skywalker",
     "height": "172",
     "mass": "77",
@@ -27,3 +27,5 @@
     "edited": "2014-12-20T21:17:56.891000Z",
     "url": "https://swapi.dev/api/people/1/"
 }
+const obj = JSON.stringify(text);
+document.body.append(obj);
