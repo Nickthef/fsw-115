@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #fffed1;
+}
+
+p {
+    font-size: 1.5rem;
+    color: whitesmoke
+}
+
+hr {
+    margin-bottom: 1rem;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+}
