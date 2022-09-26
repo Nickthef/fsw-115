@@ -1,0 +1,99 @@
+h1, h3 {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+h1 {
+  height: 150px;
+  font-size: 100px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ccc;
+  }
+
+  body {
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,121,1) 14%, rgba(9,125,127,1) 43%, rgba(0,212,255,1) 73%); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,121,1) 14%, rgba(9,125,127,1) 43%, rgba(181,255,0,0.020343171448266806) 83%);
+    width: 50%;
+    margin: auto auto;
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+
+.btn {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+#wrapper {
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+}
